@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<style name="prayerSelectPageTopText1" >
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textSize">18dp</item>
+	    <item name="android:textColor">#ff4d4d4d</item>
+	    <item name="android:layout_marginLeft">20dp</item>
+	    <item name="android:layout_marginTop">40dp</item>
+    </style> 
+    <style name="prayerSelectPageTopText1.x"></style>
+    <style name="prayer_selection_text">
+        <item name="android:textColor">#ff4d4d4d</item>
+        <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:text">Prayer Slection</item>    
+    </style>
+    <style name="prayer_selection_text.x"></style>
+    <style name="prayer_seclection_spinner" >
+        <item name="android:layout_centerInParent">true</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_below">@id/prayer_selection_text</item>
+	    
+    </style>
+    <style name="prayer_seclection_spinner.x" />
+    <style name="prayer_description_scroll" >
+        <item name="android:layout_height">130dp</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_below">@id/prayer_selection_spinner</item>    
+    </style>
+    <style name="prayer_description_scroll.x" />
+    <style name="prayer_description_text_view">
+        <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_below">@id/prayer_selection_text</item>
+	    <item name="android:layout_centerHorizontal">true</item>
+	    <item name="android:layout_marginTop">15dp</item>
+	    <item name="android:textColor">#ff4d4d4d</item>
+    </style>
+    <style name="prayer_description_text_view.x" />
+    <style name="prayer_selection_next_button">
+        <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_width">wrap_content</item>
+	    <item name="android:layout_centerHorizontal">true</item>
+	    <item name="android:layout_marginTop">15dp</item>
+	    <item name="android:text">Next</item>
+    	<item name="android:layout_below">@id/prayer_descript_scroll</item>
+	    
+    </style>
+    <style name="prayer_selection_next_button.x"/>        
+</resources>

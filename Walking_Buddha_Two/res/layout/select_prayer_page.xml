@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="#ffe0e0e0"  >
+		<RelativeLayout
+			android:id="@+id/select_prayer_top"
+	        style="@style/greetingPageOverallLayout.x"
+	        android:background="@drawable/splashpage_top">
+		    <TextView
+		        style="@style/prayerSelectPageTopText1.x"
+		        android:text="@string/Prayers_Top_text"
+		        android:id="@+id/prayer_top_text"/>
+		        
+		</RelativeLayout>
+		<RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:id="@+id/prayer_list_layout">
+	        <TextView
+	            style="@style/prayer_selection_text.x"
+	            android:id="@+id/prayer_selection_text"
+	            android:text="Prayer Selection"/>
+		    <Spinner 
+		        style="@style/prayer_seclection_spinner.x"
+		        android:id="@+id/prayer_selection_spinner"/>
+		    <ScrollView
+		        style="@style/prayer_description_scroll.x"
+		        android:background="#ffF2F2F2"
+		        android:id="@+id/prayer_descript_scroll">
+			    <TextView
+			        style="@style/prayer_description_text_view.x"
+			        android:id="@+id/prayer_description_text"
+			        android:text="Select A Prayer to See It's Description."/>
+		    
+		    </ScrollView>
+		    <Button
+		        style="@style/prayer_selection_next_button.x"
+	      		android:onClick="userNextPressed"	
+	            android:id="@+id/user_next_button_desc"/>
+		</RelativeLayout>
+		    
+</RelativeLayout>
