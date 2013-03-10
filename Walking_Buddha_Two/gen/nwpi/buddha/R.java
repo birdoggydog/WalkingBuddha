@@ -14,40 +14,90 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int sliding_drawer_handle_icon=0x7f020001;
-        public static final int splashpage_bottom=0x7f020002;
-        public static final int splashpage_top=0x7f020003;
+        public static final int amitaba=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int icon=0x7f020002;
+        public static final int img_0164=0x7f020003;
+        public static final int img_0167=0x7f020004;
+        public static final int img_0170=0x7f020005;
+        public static final int img_0173=0x7f020006;
+        public static final int img_0177=0x7f020007;
+        public static final int img_0181=0x7f020008;
+        public static final int img_0185=0x7f020009;
+        public static final int img_0189=0x7f02000a;
+        public static final int img_0192=0x7f02000b;
+        public static final int img_0197=0x7f02000c;
+        public static final int img_0202=0x7f02000d;
+        public static final int img_0207=0x7f02000e;
+        public static final int img_0212=0x7f02000f;
+        public static final int img_0217=0x7f020010;
+        public static final int img_0223=0x7f020011;
+        public static final int img_0230=0x7f020012;
+        public static final int img_0239=0x7f020013;
+        public static final int img_0246=0x7f020014;
+        public static final int img_0253=0x7f020015;
+        public static final int img_0258=0x7f020016;
+        public static final int img_0264=0x7f020017;
+        public static final int kw_298_20_enl_stupa=0x7f020018;
+        public static final int ls_001_005=0x7f020019;
+        public static final int mc_60_13_stupa_park_extra_wide=0x7f02001a;
+        public static final int md_stupa_1=0x7f02001b;
+        public static final int minus_button=0x7f02001c;
+        public static final int plus_button=0x7f02001d;
+        public static final int sd_md_stupa_005=0x7f02001e;
+        public static final int sliding_drawer_handle_icon=0x7f02001f;
+        public static final int splashpage_bottom=0x7f020020;
+        public static final int splashpage_top=0x7f020021;
+        public static final int stupa1=0x7f020022;
+        public static final int stupa_snowa=0x7f020023;
+        public static final int walking_buddha_02=0x7f020024;
     }
     public static final class id {
         public static final int about_button=0x7f07000b;
+        public static final int action_top=0x7f07000e;
         public static final int content=0x7f070007;
         public static final int dedicate_button=0x7f07000a;
         public static final int drawer=0x7f070005;
         public static final int entry_page_layout=0x7f070003;
         public static final int handle=0x7f070006;
-        public static final int prayer_descript_scroll=0x7f070013;
-        public static final int prayer_description_text=0x7f070014;
-        public static final int prayer_list_layout=0x7f070010;
-        public static final int prayer_selection_spinner=0x7f070012;
-        public static final int prayer_selection_text=0x7f070011;
-        public static final int prayer_top_text=0x7f07000f;
+        public static final int nextPrevLayout=0x7f07001e;
+        public static final int prayStupaTitle=0x7f070011;
+        public static final int prayerCounter=0x7f070014;
+        public static final int prayer_descript_scroll=0x7f07001a;
+        public static final int prayer_description_text=0x7f07001b;
+        public static final int prayer_list_layout=0x7f070017;
+        public static final int prayer_minus_button=0x7f070012;
+        public static final int prayer_plus_button=0x7f070013;
+        public static final int prayer_selection_spinner=0x7f070019;
+        public static final int prayer_selection_text=0x7f070018;
+        public static final int prayer_top_text=0x7f070016;
         public static final int prayers_button=0x7f070008;
-        public static final int select_prayer_top=0x7f07000e;
+        public static final int selectStupaTitle=0x7f070021;
+        public static final int select_prayer_top=0x7f070015;
+        public static final int select_stupa_overlay=0x7f070020;
+        public static final int select_stupa_top=0x7f07001d;
+        public static final int select_stupa_top_cur_stupa_holder=0x7f07001f;
         public static final int sliderView=0x7f07000d;
         public static final int snow_lion_image=0x7f070004;
         public static final int splashcreen_top_layout=0x7f070000;
         public static final int splashpage_sexy_1=0x7f070001;
         public static final int splashpage_sexy_2=0x7f070002;
+        public static final int stupaSelectButton=0x7f070024;
+        public static final int stupa_minus_button=0x7f070022;
+        public static final int stupa_overlay=0x7f070010;
+        public static final int stupa_plus_button=0x7f070023;
+        public static final int stupa_traveling_image=0x7f07000f;
         public static final int stupas_button=0x7f070009;
-        public static final int user_next_button_desc=0x7f070015;
+        public static final int user_next_button_desc=0x7f07001c;
         public static final int viewRoot=0x7f07000c;
     }
     public static final class layout {
         public static final int greeting_page=0x7f030000;
         public static final int m_sliding_drawer=0x7f030001;
         public static final int main=0x7f030002;
-        public static final int select_prayer_page=0x7f030003;
+        public static final int pray_page=0x7f030003;
+        public static final int select_prayer_page=0x7f030004;
+        public static final int select_stupa_page=0x7f030005;
     }
     public static final class string {
         public static final int About_Us=0x7f040024;
