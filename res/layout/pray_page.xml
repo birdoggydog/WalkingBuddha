@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffe0e0e0"  >
+
+    <RelativeLayout
+		    android:id="@+id/action_top"
+        	android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+		    
+            android:background="@drawable/splashpage_top">
+	        <ImageView
+	        	android:background="#ffe0e0e0"    
+	            android:id="@+id/stupa_traveling_image"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:src="@drawable/md_stupa_1"/>
+	        <RelativeLayout  
+	            android:id="@+id/stupa_overlay"
+    	    	android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:background="#00000000"
+				>
+				<TextView
+				    android:layout_alignParentTop="true"
+		    	    android:id="@+id/prayStupaTitle"
+		        	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="Label Of Stupa"
+			    	android:layout_centerHorizontal="true"
+			    	android:textSize="15dp"
+			    	android:textColor="#ff000000"/>
+	            
+		        <ImageView
+		            android:id="@+id/prayer_minus_button"
+	    	    	android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:layout_marginLeft="15dp"
+					android:layout_marginBottom="1dp"
+					android:layout_alignParentBottom="true"
+					android:src="@drawable/minus_button"
+					android:layout_alignParentLeft="true"
+					android:onClick="minusClicked"
+				/>
+				<ImageView
+		            android:id="@+id/prayer_plus_button"
+	    	    	android:layout_width="25dp"
+					android:layout_height="25dp"
+					android:layout_marginRight="15dp"
+					android:layout_marginBottom="1dp"
+					android:layout_alignParentBottom="true"
+					android:src="@drawable/plus_button"
+				    android:layout_alignParentRight="true"
+				    android:onClick="plusClicked"
+					
+				/>
+				<TextView
+		    	    android:id="@+id/prayerCounter"
+		        	android:layout_width="wrap_content"
+			    	android:layout_height="wrap_content"
+			    	android:text="Prayers: 0"
+			    	android:layout_centerHorizontal="true"
+			    	android:layout_alignParentBottom="true"
+			    	android:textSize="15dp"
+			    	android:layout_marginBottom="5dp"
+			    	android:textColor="#ff000000"/>
+	                
+	        </RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>
