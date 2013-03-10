@@ -4,9 +4,10 @@
 	    <item name="android:layout_height">wrap_content</item>
 	    <item name="android:textSize">18dp</item>
 	    <item name="android:textColor">#ff4d4d4d</item>
-	    <item name="android:layout_marginLeft">20dp</item>
+	    <item name="android:layout_marginLeft">40dp</item>
 	    <item name="android:layout_marginTop">40dp</item>
     </style> 
+    	       
     <style name="prayerSelectPageTopText1.x"></style>
     <style name="prayer_selection_text">
         <item name="android:textColor">#ff4d4d4d</item>

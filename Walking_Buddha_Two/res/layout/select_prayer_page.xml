@@ -15,6 +15,7 @@
 		        
 		</RelativeLayout>
 		<RelativeLayout
+		    android:layout_below="@+id/select_prayer_top"
 		    android:layout_width="fill_parent"
 		    android:layout_height="wrap_content"
 		    android:id="@+id/prayer_list_layout">
