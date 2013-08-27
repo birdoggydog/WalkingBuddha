@@ -2,65 +2,36 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ffe0e0e0"  >
+    android:background="#ffe0e0e0" >
 
-	<RelativeLayout
-		android:id="@+id/select_stupa_top"
-        android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    android:layout_below="@+id/nextPrevLayout">
+    <RelativeLayout
+        android:id="@+id/select_stupa_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
 
-	    <ImageView
-	        android:id="@+id/select_stupa_top_cur_stupa_holder"
-	        android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:src="@drawable/md_stupa_1"/>
-		</RelativeLayout>
-		 <RelativeLayout  
-	            android:id="@+id/select_stupa_overlay"
-    	    	android:layout_width="fill_parent"
-				android:layout_height="fill_parent"
-				android:background="#00000000"
-				>
-				<TextView
-				    android:layout_alignParentTop="true"
-		    	    android:id="@+id/selectStupaTitle"
-		        	android:layout_width="wrap_content"
-			    	android:layout_height="wrap_content"
-			    	android:text="Label Of Stupa"
-			    	android:layout_centerHorizontal="true"
-			    	android:textSize="15dp"
-			    	android:textColor="#ff000000"/>
-				 <ImageView
-		            android:id="@+id/stupa_minus_button"
-	    	    	android:layout_width="16dp"
-					android:layout_height="16dp"
-					android:layout_marginLeft="15dp"
-					android:layout_marginBottom="5dp"
-					android:layout_alignParentBottom="true"
-					android:src="@drawable/minus_button"
-					android:layout_alignParentLeft="true"
-				/>
-				<ImageView
-		            android:id="@+id/stupa_plus_button"
-	    	    	android:layout_width="16dp"
-					android:layout_height="16dp"
-					android:layout_marginRight="15dp"
-					android:layout_marginBottom="5dp"
-					android:layout_alignParentBottom="true"
-					android:src="@drawable/plus_button"
-				    android:layout_alignParentRight="true"
-					
-				/>
-				<TextView
-		    	    android:id="@+id/stupaSelectButton"
-		        	android:layout_width="wrap_content"
-			    	android:layout_height="wrap_content"
-			    	android:text="Pray"
-			    	android:layout_centerHorizontal="true"
-			    	android:layout_alignParentBottom="true"
-			    	android:textSize="15dp"
-			    	android:layout_marginBottom="5dp"
-			    	android:textColor="#ff000000"/>
-	   </RelativeLayout>
+        <ImageView
+            android:id="@+id/select_stupa_top_cur_stupa_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="330dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/md_stupa_1" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/stupa_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Next" />
+
+    <Spinner
+        android:id="@+id/stupa_selection_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/stupa_next"
+        android:layout_alignParentLeft="true" />
+
 </RelativeLayout>
